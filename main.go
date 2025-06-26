@@ -33,7 +33,7 @@ func main() {
 
 	ipsArgs := flag.Args()
 	if len(ipsArgs) == 0 {
-		fmt.Println("Usage: go run main.go [--web] <ip/range/network> [<ip/range/network> ...]")
+		fmt.Println("Usage: go run *.go [--web] <ip/range/network> [<ip/range/network> ...]")
 		os.Exit(1)
 	}
 
